@@ -1,0 +1,14 @@
+{
+  "name": "1-typescript",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
