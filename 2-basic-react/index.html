@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .container {
+        color: red;
+      }
+    </style>
+
+    <!-- In production, you wouldn't do this -->
+    <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      const rootElement = document.getElementById('root')
+
+      // Vanilla JS APIs
+      const element = document.createElement('h1')
+      element.textContent = 'Hello World'
+      element.className = 'container'
+      rootElement.appendChild(element)
+
+      // React APIs
+      // const element = React.createElement('h1', {
+      //   className: 'container',
+      //   children: 'Hello World',
+      // })
+      // ReactDOM.render(element, rootElement)
+    </script>
+  </body>
+</html>
