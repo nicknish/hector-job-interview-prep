@@ -19,6 +19,7 @@ interface EnhancedUser extends User {
   profile_img?: string
 }
 
+// @ts-expect-error
 function getProfileImg(user: EnhancedUser): string {
   // TODO: Complete this
 }
