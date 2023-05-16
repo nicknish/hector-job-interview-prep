@@ -5,7 +5,8 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2015", "DOM"]
   },
   "exclude": ["node_modules", "dist"]
 }
