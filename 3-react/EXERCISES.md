@@ -32,6 +32,8 @@ This component should have the following features:
 - When the title is clicked again, the body should be hidden
 - The body should be hidden by default
 
+See https://mui.com/material-ui/react-accordion/ for an example
+
 ## 5. Add the Contact component
 
 Build a new Contact component and add it to the `/contact` route. This component should have the
