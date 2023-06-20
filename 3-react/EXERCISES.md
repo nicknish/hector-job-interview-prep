@@ -22,14 +22,15 @@ works as expected.
 
 ## 4. Add the Accordion component
 
-Build a new Accordion component and add it to the `/accordion` route. This component should have the
-following features:
+Build a new Accordion component and add it to the `/accordion` route.
 
-- It should display a list of items
-- Each item should have a title and a body
-- The body should be hidden by default
+This component should have the following features:
+
+- Component should have a title prop that becomes the label
+- Component should have a body prop that becomes the body
 - When the title is clicked, the body should be shown
 - When the title is clicked again, the body should be hidden
+- The body should be hidden by default
 
 ## 5. Add the Contact component
 
